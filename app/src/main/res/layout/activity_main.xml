@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensagem que será exibida"
+        android:id="@+id/editText"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificação Simples"
+        android:id="@+id/button"
+        android:onClick="criarNotificacaoSimples"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificação Completa"
+        android:id="@+id/button2"
+        android:onClick="criarNotificacaoCompleta"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificação Big"
+        android:id="@+id/button3"
+        android:onClick="criarNotificacaoBig"/>
+
+</LinearLayout>
